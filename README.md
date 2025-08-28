@@ -209,34 +209,6 @@ These are stored in `.filenest_config` and `.filenest_backup` folders.
 
 ---
 
-## 🧪 Development Roadmap
-
-### Phase 1: MVP
-
-- Folder browsing
-- File preview
-- Basic file actions
-
-### Phase 2: Smart Logic
-
-- Auto-grouping
-- Dashboard analytics
-- Backup system
-
-### Phase 3: Remote Access
-
-- LAN/IP access
-- Upload/download
-- Permissions
-
-### Phase 4: Polish & Expansion
-
-- UI enhancements
-- AI integration
-- Plugin support
-
----
-
 ## 💬 Contact & Support
 
 This project is developed by a solo developer with a vision. Contributions, feedback, and ideas are welcome. Reach out via GitHub Issues or email (to be added).
