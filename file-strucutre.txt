@@ -1,0 +1,44 @@
+FileNest/
+├── client/                     # Frontend (UI)
+│   ├── public/                 # Static assets (favicon, index.html)
+│   ├── src/
+│   │   ├── assets/             # Images, icons, fonts
+│   │   ├── components/         # Reusable UI components
+│   │   ├── pages/              # Tab views (Dashboard, Media, Projects, etc.)
+│   │   ├── styles/             # Global and modular CSS/Tailwind files
+│   │   ├── utils/              # Helper functions (formatting, filters)
+│   │   ├── services/           # API calls to backend
+│   │   └── App.js              # Main app component
+│   └── package.json            # Frontend dependencies
+
+├── server/                     # Backend (API + Logic)
+│   ├── controllers/            # Logic for file actions, backups, analytics
+│   ├── routes/                 # API endpoints
+│   ├── services/               # File system access, encryption, metadata
+│   ├── middleware/             # Auth, error handling
+│   ├── config/                 # Server settings, paths, environment
+│   ├── models/                 # Data models (if using a database)
+│   ├── utils/                  # File helpers, hashing, logging
+│   └── index.js                # Server entry point
+
+├── data/                       # Local data storage
+│   ├── backups/                # Encrypted backup files
+│   ├── configs/                # User preferences, folder mappings
+│   ├── logs/                   # Usage logs, activity history
+│   └── metadata/               # File tags, versioning info
+
+├── scripts/                    # Automation scripts
+│   ├── initStructure.js        # Auto-create folder structure
+│   ├── scanFolders.js          # Index and analyze folders
+│   └── backupManager.js        # Handle backup/restore logic
+
+├── docs/                       # Documentation
+│   ├── README.md               # Project overview
+│   ├── architecture.txt        # System architecture notes
+│   ├── roadmap.txt             # Development phases
+│   └── changelog.txt           # Version history
+
+├── .env                        # Environment variables
+├── .gitignore                  # Git exclusions
+├── LICENSE                     # License file
+└── package.json                # Backend dependencies
